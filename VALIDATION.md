@@ -26,6 +26,10 @@ Everything else is a refinement you tune *after* these pass.
    Be honest: could a linked note template give you the same traceability and
    follow-through with less friction? If yes, **use the template and stop here.**
 
+## Running evidence
+
+All signals, human evaluations, and the final report live in [`validation/`](validation/). GitHub is the source of truth. See [`validation/README.md`](validation/README.md) for the logging protocol.
+
 ## The test (≈2 weeks, real work only)
 
 - Use the workbook in `prototype/output/` on **your actual signals** (TFM / work),
