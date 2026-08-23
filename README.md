@@ -32,18 +32,23 @@ documents look.
 | [`docs/p0-schema.md`](docs/p0-schema.md) | Canonical P0 data schema (Drizzle/SQLite) for the future build, derived directly from the spec. |
 | [`AGENTS.md`](AGENTS.md) | Persistent rules for any human or AI working on the project. |
 | [`VALIDATION.md`](VALIDATION.md) | The lean Phase-0 test that decides whether we build. |
-| [`prototype/`](prototype/) | The manual test instrument: an Excel workbook + its generator/verifier scripts. This is the actual Phase-0 tool. |
+| [`prototype/`](prototype/) | The manual test instrument: a lean 5-sheet Excel workbook + its self-contained generator (`npm install && npm run build`). This is the actual Phase-0 tool. |
 | [`spikes/web/`](spikes/web/) | **Frozen** early Next.js/Cloudflare spike. Not part of Phase 0. Do not develop against it until validation passes — it already drifts from the spec. |
 
 ## The manual prototype
 
 The Phase-0 test runs on a structured Excel workbook (already generated):
 
-`prototype/output/tourism_signal_radar_manual_prototype.xlsx`
+`prototype/output/tourism_signal_radar_lean_prototype.xlsx`
 
-It is a manual decision notebook — no automation, no scraping, no AI. You capture
-Sources, write Signals, link evidence, assign priority via transparent gates, and
-record a disposition + THE MOVE. That is the whole test.
+Five sheets — **Radar** (guide + morning triage), **Signals**, **Sources**,
+**Evidence Links**, **Projects** — with dropdown validation for every controlled
+field and seeded examples (a multi-source signal and a contradiction) you delete
+before starting. It is a manual decision notebook — no automation, no scraping, no
+AI. You capture Sources, write Signals, link evidence, assign priority via
+transparent gates, and record a disposition + THE MOVE. That is the whole test.
+
+Regenerate with `cd prototype && npm install && npm run build`.
 
 ## Canonical concepts (30-second version)
 

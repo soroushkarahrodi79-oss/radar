@@ -1,0 +1,13 @@
+{
+  "name": "radar-prototype-builder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Generates the lean 5-sheet manual test workbook for Tourism Signal Radar.",
+  "scripts": {
+    "build": "node build_lean_prototype.mjs"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
