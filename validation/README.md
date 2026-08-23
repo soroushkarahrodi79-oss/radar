@@ -40,4 +40,10 @@ GitHub is the canonical record. All signal entries and human evaluations live in
 
 ## Failure rule
 
-If Q1 or Q2 fails, the verdict is Kill or Reposition. If only Q3 fails, the verdict is Template. Failure must not be reinterpreted as a near-pass. See [`VALIDATION.md`](../VALIDATION.md) for the full go/kill rule.
+| Result | Verdict |
+|---|---|
+| All 3 pass | **BUILD** |
+| Q1 or Q2 fails | **KILL** |
+| Only Q3 fails | **REPOSITION / TEMPLATE** |
+
+Failure must not be reinterpreted as a near-pass. See [`VALIDATION.md`](../VALIDATION.md) for the full go/kill rule.
