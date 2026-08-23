@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+.next/
+.wrangler/
+.vinext/
+
+# Env / secrets
+.env
+.env.*
+.dev.vars
+*.local
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Nested git from the web spike (imported as plain files)
+spikes/web/.git/
