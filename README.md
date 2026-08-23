@@ -29,6 +29,7 @@ documents look.
 | Path | What it is |
 |---|---|
 | [`docs/`](docs/) | The product spec: contract, signal model, decision system, UX, design. Source of truth. |
+| [`docs/p0-schema.md`](docs/p0-schema.md) | Canonical P0 data schema (Drizzle/SQLite) for the future build, derived directly from the spec. |
 | [`AGENTS.md`](AGENTS.md) | Persistent rules for any human or AI working on the project. |
 | [`VALIDATION.md`](VALIDATION.md) | The lean Phase-0 test that decides whether we build. |
 | [`prototype/`](prototype/) | The manual test instrument: an Excel workbook + its generator/verifier scripts. This is the actual Phase-0 tool. |
