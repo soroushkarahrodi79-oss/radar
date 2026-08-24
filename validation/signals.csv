@@ -1,2 +1,2 @@
 signal_id,date,signal_claim,project,source_count,multi_source,contradiction_present,the_move
-RAD-001,2026-08-24,"AlphaEarth capabilities are moving from an interesting annual embedding dataset toward more operational change-dete
+RAD-001,2026-08-24,"AlphaEarth satellite embeddings are now accessible in Earth Engine; no reviewed evidence yet shows they improve visitor-pressure indicators over current NDVI anomalies.",TFM,1,no,no,"Compare AlphaEarth and current NDVI indicators on two known sites before changing the monitoring pipeline."
