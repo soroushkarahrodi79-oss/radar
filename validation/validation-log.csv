@@ -5,3 +5,4 @@ RAD-003,2026-08-25,yes,ignored,"THE MOVE was judged useful, but no action was ta
 RAD-004,2026-08-31,yes,act,"Competitive falsification accepted for execution."
 RAD-005,2026-09-02,yes,ignored,"The signal is useful, but the test is deferred to avoid reopening HATI scope during publication closure."
 RAD-006,2026-09-02,yes,act,"Seam audit accepted for execution because it is low-cost and can falsify a core architectural claim before FAB expands further."
+RAD-007,2026-09-03,yes,act,"A bounded 15-20 minute audit is accepted because it can determine whether the FAB SIGNALS module provides real information gain; if the surviving edge adds no decision value, keep SIGNALS dormant rather than expanding the graph."
