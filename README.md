@@ -13,14 +13,23 @@ more Sources), ending — when warranted — in **THE MOVE**: the smallest ratio
 
 ## Current phase
 
-**Phase 0 — validate before build.**
+**Phase 0 — CLOSED (2026-09-20).**
 
-No production software is being built yet. The single goal right now is to prove,
-with real signals, that the reviewed-Signal workflow beats a plain note template.
-See **[VALIDATION.md](VALIDATION.md)** for the lean 2-week test and the go/kill rule.
+The owner decision is **KILL_STANDALONE_BUILD / RETAIN_AS_NOTION_METHOD**: the
+standalone Tourism Signal Radar product is not authorized for development. The
+Signal → Evidence → Decision → THE MOVE method is retained, but inside the
+existing Soroush OS Notion Intelligence + Decisions workflow, not as a
+separate application.
 
-The decision to write real software is gated on that test — not on how good the
-documents look.
+This repository is retained as a **validation and decision record**. It is not
+under active development, and the MVP backlog referenced by
+[`VALIDATION.md`](VALIDATION.md) is historical context, not authorized work.
+
+See **[PROJECT_STATUS.md](PROJECT_STATUS.md)** for the canonical status and
+**[validation/FINAL-VALIDATION-REPORT.md](validation/FINAL-VALIDATION-REPORT.md)**
+for the full evidence and closure report. [`VALIDATION.md`](VALIDATION.md)
+describes the original lean test design and go/kill rule as originally
+planned, for historical reference.
 
 ---
 
